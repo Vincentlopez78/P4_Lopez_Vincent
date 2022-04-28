@@ -284,7 +284,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 40px;
 }
 
 .navbar {
@@ -302,7 +302,7 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    height: 40px;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -313,7 +313,7 @@ a:hover {
 
 .nav-center .navbar-brand img {
     margin: 0;
-}
+}B
 
 .navbar .nav {
     padding-top: 2px;
@@ -659,7 +659,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 46px;
 }
 
 .hero-bloc-text-sub {
@@ -677,12 +677,15 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+}
+.img-size {
+    width: 100px;
 }
 
 .h1 {
