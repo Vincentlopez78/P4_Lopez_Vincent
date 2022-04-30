@@ -336,6 +336,10 @@ a:hover {
 .nav > li a:focus {
     background: transparent;
 }
+/* Ajout d'un margin pour le seo */
+.li--footer--size {
+    margin-bottom: 5px;
+}
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
