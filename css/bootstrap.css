@@ -1384,14 +1384,15 @@ th {
 }
 
 html {
+    font-size: 10px;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.42857143;
-    color: black;
+    color: #333;
     background-color: #fff
 }
 
@@ -3142,7 +3143,7 @@ output {
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.42857143;
-    color: black;
+    color: #555;
     background-color: #fff;
     background-image: none;
     border: 1px solid #ccc;
