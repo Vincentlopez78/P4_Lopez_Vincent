@@ -527,9 +527,9 @@ button {
 }
 
 .scrollToTop span {
-    position: fixed;
-    top: 847px;
-    left: 1566px;
+    position: absolute;
+    top: 2px;
+    right: 4px;
 }
 
 .showScrollTop {
