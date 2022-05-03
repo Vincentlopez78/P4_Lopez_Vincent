@@ -693,7 +693,7 @@ p {
 }
 .img-size {
     width: 100px;
-    height: auto;
+    height: 100px;
 }
 
 .h1 {
@@ -764,8 +764,8 @@ h4 {
 }
 
 .portfolio-row img {
-    height: auto;
-    width: auto;
+    height: 270px;
+    width: 270px;
 }
 
 .avatar {
