@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -284,7 +284,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 40px;
 }
 
 .navbar {
@@ -293,7 +293,8 @@ a:hover {
 }
 
 .navbar-brand {
-    height: auto;
+    height: 50px;
+    width: 250px;
     padding: 3px 15px;
     font-size: 25px;
     font-weight: normal;
@@ -302,17 +303,9 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
-    margin: 0 5px 0 0;
+    height: 40px;
+    width: 220px;
     display: inline;
-}
-
-.navbar-brand img[src$=svg] {
-    min-width: 100px;
-}
-
-.nav-center .navbar-brand img {
-    margin: 0;
 }
 
 .navbar .nav {
@@ -325,7 +318,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -335,6 +328,10 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+}
+/* Ajout d'un margin pour le seo */
+.li--footer--size {
+    margin-bottom: 10px;
 }
 
 .navbar-toggle {
@@ -508,6 +505,7 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    color: #000000;
 }
 
 .scrollToTop {
@@ -516,13 +514,15 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
 
 .scrollToTop span {
-    margin-top: 6px;
+    position: absolute;
+    top: 2px;
+    right: 4px;
 }
 
 .showScrollTop {
@@ -563,6 +563,7 @@ a[data-lightbox]:hover img {
 #lightbox-modal {
     display: flex;
     align-items: center;
+    padding-right: 15px;
 }
 
 #lightbox-modal .modal-dialog {
@@ -573,6 +574,7 @@ a[data-lightbox]:hover img {
 
 #lightbox-modal .modal-dialog img {
     max-height: 90vh;
+    width: auto;
     margin: 0 auto;
 }
 
@@ -651,15 +653,17 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
+    font-size: 18px;
 }
 
 .container {
     max-width: 1000px;
+    height: auto;
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 46px;
 }
 
 .hero-bloc-text-sub {
@@ -677,12 +681,16 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+}
+.img-size {
+    width: 100px;
+    height: 100px;
 }
 
 .h1 {
@@ -739,6 +747,11 @@ h4 {
     color: #FFFFFF!important;
 }
 
+/* ajout */
+.orange-bc {
+    background-color: #F3976C;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -746,6 +759,11 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+}
+
+.portfolio-row img {
+    height: 270px;
+    width: 270px;
 }
 
 .avatar {
@@ -780,12 +798,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .ltc-white {
@@ -818,11 +836,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -1027,7 +1045,6 @@ h4 {
         height: 320px;
     }
 }
-
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
