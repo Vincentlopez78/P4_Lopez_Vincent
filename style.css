@@ -303,17 +303,14 @@ a:hover {
 
 .navbar-brand img {
     height: 40px;
+    width: auto;
     margin: 0 5px 0 0;
     display: inline;
 }
 
-.navbar-brand img[src$=svg] {
-    min-width: 100px;
-}
-
 .nav-center .navbar-brand img {
     margin: 0;
-}B
+}
 
 .navbar .nav {
     padding-top: 2px;
@@ -570,6 +567,7 @@ a[data-lightbox]:hover img {
 #lightbox-modal {
     display: flex;
     align-items: center;
+    padding-right: 15px;
 }
 
 #lightbox-modal .modal-dialog {
@@ -580,6 +578,7 @@ a[data-lightbox]:hover img {
 
 #lightbox-modal .modal-dialog img {
     max-height: 90vh;
+    width: auto;
     margin: 0 auto;
 }
 
@@ -694,6 +693,7 @@ p {
 }
 .img-size {
     width: 100px;
+    height: auto;
 }
 
 .h1 {
