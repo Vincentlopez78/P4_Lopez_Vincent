@@ -747,6 +747,7 @@ h4 {
     color: #FFFFFF!important;
 }
 
+/* ajout */
 .orange-bc {
     background-color: #F3976C;
 }
@@ -1044,7 +1045,6 @@ h4 {
         height: 320px;
     }
 }
-
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
